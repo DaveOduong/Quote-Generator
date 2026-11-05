@@ -106,7 +106,7 @@ const quoteElement= document.getElementById("quote")
 
 function generateQuote()
 {
-  if(usedIndexes.size==quotes.length)
+  if(usedIndexes.size>=quotes.length)
   {
    usedIndexes.clear() 
   }
